@@ -11,8 +11,8 @@ repositories {
 
 dependencies {
     implementation libs.groovy.core
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.junit:junit-bom:5.10.0'
+    implementation 'org.junit.jupiter:junit-jupiter'
 }
 
 test {
